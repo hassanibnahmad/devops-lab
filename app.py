@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Version 8 - Docker Updates Automatically!"  
+    return "Version 9 - CI/CD Complete!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
